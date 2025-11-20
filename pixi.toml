@@ -1,0 +1,23 @@
+[workspace]
+authors = ["84176052+sounddrill31 <84176052+sounddrill31@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "card-redo"
+platforms = ["win-64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+build = "python build.py"
+dev = "python build.py && python -m http.server 8000 -d out/"
+
+[dependencies]
+python = ">=3.14.0,<3.15"
+requests = ">=2.32.5,<3"
+pyyaml = ">=6.0.3,<7"
+jinja2 = ">=3.1.6,<4"
+htmlmin = ">=0.1.12,<0.2"
+legacy-cgi = ">=2.6.3,<3"
+pillow = ">=11.3.0,<12"
+qrcode = ">=8.2,<9"
+
+[target.linux-64.dependencies]
+python = ">=3.14.0,<3.15"
