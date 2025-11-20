@@ -29,10 +29,10 @@ social_links:
 main_links:
   - url: "https://zahra-44.github.io"
     text: "Personal/Developer Website"
-  - url: "https://linkedin.com/in/zara B/"
+  - url: "https://linkedin.com/in/zara-B/"
     text: "LinkedIn Profile"
-  - url: "https://github.com/zahra-44/links-website/releases/download/19Oct2025/resume.pdf"
-    text: "Download Resume"
+#  - url: "https://github.com/zahra-44/links-website/releases/download/19Oct2025/resume.pdf"
+#    text: "Download Resume"
 
 footer_link:
   url: "LICENSE"
